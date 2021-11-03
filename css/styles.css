@@ -118,6 +118,7 @@ p {
 .header-links.auth .link-icon {
   margin-right: 10px;
   fill: var(--primary-text-color);
+  transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
 .header-links .item:not(:last-child) {
@@ -477,6 +478,7 @@ p {
 
 .social-link .link-icon {
   fill: var(--links-no-hover-color);
+  transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
 .social-link:hover .link-icon,
@@ -522,6 +524,7 @@ p {
 
 .client-list .link-icon {
   fill: var(--links-no-hover-color);
+  transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
 .client-link:hover .link-icon,
